@@ -17,34 +17,34 @@ const Faqs = () => {
                             Your questions, <span className='text-[#007aff]'>answered</span>
                         </h2>
                     </div>
-                    <div className='text-xl flex flex-wrap flex-col gap-8'>
-                        <Accordion type="single" collapsible className="w-full">
+                    <div className='text-xl flex flex-wrap justify-start items-start text-start flex-col gap-8'>
+                        <Accordion type="single" collapsible className="flex flex-col flex-wrap justify-start items-start text-start w-full">
                             <AccordionItem value="item-1">
-                                <AccordionTrigger>What areas in Sydney do you service?</AccordionTrigger>
+                                <AccordionTrigger className="flex flex-wrap justify-end items-center text-start">What areas in Sydney do you service?</AccordionTrigger>
                                 <AccordionContent className="text-lg">
                                     We provide cleaning services across all suburbs in Sydney. If you’re unsure whether we cover your area, please contact us.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="item-2">
-                                <AccordionTrigger>What cleaning products do you use?</AccordionTrigger>
+                                <AccordionTrigger className="flex flex-wrap justify-end items-center text-start">What cleaning products do you use?</AccordionTrigger>
                                 <AccordionContent className="text-lg">
                                     We use eco-friendly and non-toxic cleaning products to ensure a safe and healthy environment for you and your family.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="item-3">
-                                <AccordionTrigger>How do I book a cleaning service?</AccordionTrigger>
+                                <AccordionTrigger className="flex flex-wrap justify-end items-center text-start">How do I book a cleaning service?</AccordionTrigger>
                                 <AccordionContent className="text-lg">
                                     You can book a cleaning service online through our website or by calling our customer service team directly.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="item-4">
-                                <AccordionTrigger>What if I need to cancel or reschedule my appointment?</AccordionTrigger>
+                                <AccordionTrigger className="flex flex-wrap justify-end items-center text-start">What if I need to cancel or reschedule my appointment?</AccordionTrigger>
                                 <AccordionContent className="text-lg">
                                     Please notify us at least 24 hours in advance if you need to cancel or reschedule. We will do our best to accommodate your request.
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="item-5">
-                                <AccordionTrigger>Are your cleaners insured?</AccordionTrigger>
+                                <AccordionTrigger className="flex flex-wrap justify-end items-center text-start">Are your cleaners insured?</AccordionTrigger>
                                 <AccordionContent className="text-lg">
                                     Yes, all our cleaners are fully insured and undergo background checks to ensure your peace of mind.
                                 </AccordionContent>
