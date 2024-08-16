@@ -1,9 +1,10 @@
 import React from 'react'
 import { IoGift } from "react-icons/io5";
 import { VscError } from "react-icons/vsc";
+import { HiCheck } from "react-icons/hi";
 
 
-const pricing = () => {
+const Pricing = () => {
     return (
         <>
             <section className="bg-base-200 overflow-hidden" id="pricing">
@@ -81,32 +82,31 @@ const pricing = () => {
                         </div>
                         <div className='flex flex-col flex-wrap items-start py-1 gap-4'>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p className='font-semibold'>Pass Guarantee (100% money back)</p>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p className='font-semibold'>Experienced & Professional Cleaners</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Customizable Cleaning Packages</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <VscError className='text-lg text-green-500' />
+                                <p>Eco-friendly Cleaning Products</p>
                             </div>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
                                 <VscError className='text-lg text-red-500' />
-                                <p>All 650 exam-like questions for your state</p>
+                                <p>Flexible Scheduling</p>
                             </div>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
                                 <VscError className='text-lg text-red-500' />
-                                <p>Unlimited exam simulators (theory & BTW)</p>
+                                <p>Thorough & Detailed Cleaning</p>
                             </div>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>DMV Genie AI & Challenge Bank™</p>
-                            </div>
-                            <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>2 Cheat Sheets (most common questions)</p>
-                            </div>
-                            <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>500+ DMV flashcards</p>
+                                <HiCheck className='text-lg text-red-500' />
+                                <p>Affordable Rates</p>
                             </div>
                         </div>
                     </div>
-
                     <div className='flex flex-wrap flex-col rounded-lg border-4 border-blue-500 justify-center items-start shadow-lg py-6 p-4 w-[450px]'>
                         <div className='flex flex-wrap flex-col gap-1 pb-5 break-all'>
                             <div className='py-2'>
@@ -125,32 +125,31 @@ const pricing = () => {
                         </div>
                         <div className='flex flex-col flex-wrap items-start py-1 gap-4'>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p className='font-semibold'>Pass Guarantee (100% money back)</p>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p className='font-semibold'>Experienced & Professional Cleaners</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Customizable Cleaning Packages</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Flexible Scheduling</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <VscError className='text-lg text-green-500' />
+                                <p>Eco-friendly Cleaning Products</p>
                             </div>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
                                 <VscError className='text-lg text-red-500' />
-                                <p>All 650 exam-like questions for your state</p>
+                                <p>Thorough & Detailed Cleaning</p>
                             </div>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>Unlimited exam simulators (theory & BTW)</p>
-                            </div>
-                            <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>DMV Genie AI & Challenge Bank™</p>
-                            </div>
-                            <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>2 Cheat Sheets (most common questions)</p>
-                            </div>
-                            <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>500+ DMV flashcards</p>
+                                <HiCheck className='text-lg text-red-500' />
+                                <p>Affordable Rates</p>
                             </div>
                         </div>
                     </div>
-
                     <div className='flex flex-wrap flex-col rounded-lg justify-center items-start shadow-custom py-6 p-4 w-[450px]'>
                         <div className='flex flex-wrap flex-col gap-1 pb-5 break-all'>
                             <div className='py-2'>
@@ -169,28 +168,28 @@ const pricing = () => {
                         </div>
                         <div className='flex flex-col flex-wrap items-start py-1 gap-4'>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p className='font-semibold'>Pass Guarantee (100% money back)</p>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p className='font-semibold'>Experienced & Professional Cleaners</p>
                             </div>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>All 650 exam-like questions for your state</p>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Customizable Cleaning Packages</p>
                             </div>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>Unlimited exam simulators (theory & BTW)</p>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Eco-friendly Cleaning Products</p>
                             </div>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>DMV Genie AI & Challenge Bank™</p>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Flexible Scheduling</p>
                             </div>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>2 Cheat Sheets (most common questions)</p>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Thorough & Detailed Cleaning</p>
                             </div>
                             <div className='flex flex-wrap items-center gap-2 justify-start'>
-                                <VscError className='text-lg text-red-500' />
-                                <p>500+ DMV flashcards</p>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Affordable Rates</p>
                             </div>
                         </div>
                     </div>
@@ -202,4 +201,4 @@ const pricing = () => {
     )
 }
 
-export default pricing
+export default Pricing
