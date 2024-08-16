@@ -16,12 +16,19 @@ const hero = () => {
     <>
       <section className='bg-gradient-to-b from-white to-blue-100 z-50  py-6 lg:py-16 md:py-10 sm:py-6'>
         <div className='flex px-3 flex-wrap items-center text-3xl justify-center gap-10 lg:text-4xl md:text-4xl sm:items-center md:items-center lg:items-start'>
+          <div className='w-[500px] md:block lg:hidden sm:block flex-wrap items-center justify-center'>
+            <img src='https://exitcleaners.com.au/wp-content/uploads/2023/12/end-of-lease-cleaning-sydney.png' className='w-full shadow-lg rounded-lg ' />
+          </div>
           <div className='text-center py-6 flex flex-col flex-wrap items-center md:items-start lg:items-start justify-center w-full lg:w-[800px]'>
-            <h1 className='text-5xl font-extrabold text-center md:text-start lg:text-start w-full sm:w-[700px]'>Sydney's Top-Rated Cleaning Services.
+            <h1 className='text-5xl hidden lg:block font-extrabold text-center md:text-start lg:text-start w-full sm:w-[700px]'>Sydney's Top-Rated Cleaning Services.
               <span className='text-[#007aff]'> Clean Homes Makes Happy Lives.</span></h1>
-            <div className='flex flex-2 py-2 items-center justify-center gap-6 lg:gap-8'>
+            <h1 className='text-4xl block lg:hidden font-extrabold text-center md:text-start lg:text-start w-full sm:w-[700px]'>Sydney's Top-Rated
+              <span className='text-[#007aff]'> Cleaning Services.</span></h1>
+            <div className='flex flex-2 py-2 items-center justify-center gap-5 lg:gap-8'>
               <AvatarCircles numPeople={99} avatarUrls={avatarUrls} className='py-6' />
-              <div className='flex flex-col items-start justify-center text-center'>
+
+              <div className='flex flex-col items-center justify-center text-center'>
+
                 <div className='flex text-center justify-center items-center'>
                   <FaStar className='text-yellow-400 text-2xl' />
                   <FaStar className='text-yellow-400 text-2xl' />
@@ -29,12 +36,18 @@ const hero = () => {
                   <FaStar className='text-yellow-400 text-2xl' />
                   <FaStar className='text-yellow-400 text-2xl hidden sm:block' />
                 </div>
-                <p className='text-sm'>Over 100+ Customers Satisfied</p>
+                <p className='text-sm'>Over 100+ Customers<br className='sm:block lg:hidden md:hidden'/> Satisfied</p>
               </div>
             </div>
             <p className='text-xl font-thin py-1 text-center lg:text-start md:text-center w-full'>
               Transform your space with professional cleaning. Book today for just $49. Satisfaction guaranteed or get your money back.
             </p>
+            <div className='py-4 flex flex-wrap flex-row items-center justify-center sm:justify-start text-center md:text-center gap-6 w-full'>
+              <button className='bg-[#007aff] hover:bg-blue-700 hover:shadow-lg transition-all text-xl capitalize flex items-center text-white gap-1 px-4 font-medium py-2 rounded-lg'>
+                  Get a quote now
+              </button>
+              <img src='https://s.driving-tests.org/cdl-premium/passguarantee-orig.svg' className='w-26 h-12' />
+            </div>
             <div className='text-base font-thin py-4 '>
               <ul className="text-base-content-secondary leading-relaxed space-y-1 mt-4 flex flex-col flex-wrap items-start justify-start text-start">
                 <li className="flex items-center justify-center lg:justify-start gap-2">
@@ -80,18 +93,13 @@ const hero = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Trusted by over 100+ Customers 
+                  Trusted by over 100+ Customers
                 </li>
               </ul>
             </div>
-            <div className='py-4 flex flex-wrap flex-row items-center justify-center sm:justify-start text-center md:text-center gap-5 w-full'>
-              <button className='bg-[#007aff] hover:bg-blue-700 hover:shadow-lg transition-all text-xl capitalize flex items-center text-white gap-2 px-4 font-medium py-2 rounded-lg'>
-                <IoDiamondOutline /> Get a quote now
-              </button>
-              <img src='https://s.driving-tests.org/cdl-premium/passguarantee-orig.svg' className='w-26 h-12' />
-            </div>
+
           </div>
-          <div className='w-[500px] flex flex-wrap items-center justify-center'>
+          <div className='w-[500px] hidden lg:block flex-wrap items-center justify-center'>
             <img src='https://exitcleaners.com.au/wp-content/uploads/2023/12/end-of-lease-cleaning-sydney.png' className='w-full rounded-lg border-4 border-blue-400' />
           </div>
         </div>

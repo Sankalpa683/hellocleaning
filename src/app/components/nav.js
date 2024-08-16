@@ -23,7 +23,7 @@ const Nav = () => {
                             height='50px'
                             alt='Logo'
                         />
-                        <span className='font-extrabold text-2xl flex gap-1'>
+                        <span className='font-bold lg:font-extrabold text-xl lg:text-2xl flex gap-1'>
                             Hello Cleaning<br /><span className='text-[#007aff]'>Facility</span>
                         </span>
                     </div>
