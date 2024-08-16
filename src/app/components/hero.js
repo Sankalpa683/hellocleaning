@@ -43,8 +43,8 @@ const hero = () => {
               Transform your space with professional cleaning. Book today for just $49. Satisfaction guaranteed or get your money back.
             </p>
             <div className='py-4 flex flex-wrap flex-row items-center justify-center sm:justify-start text-center md:text-center gap-6 w-full'>
-              <button className='bg-[#007aff] hover:bg-blue-700 hover:shadow-lg transition-all text-xl capitalize flex items-center text-white gap-1 px-4 font-medium py-2 rounded-lg'>
-                  Get a quote now
+              <button className='bg-[#007aff] hover:bg-blue-700 hover:shadow-lg transition-all text-xl capitalize flex items-center text-white sm:gap-1 lg:gap-2 md:gap-2 px-4 font-medium py-2 rounded-lg'>
+                 <IoDiamondOutline className="hidden sm:hidden md:block lg:block"/> Get a quote now
               </button>
               <img src='https://s.driving-tests.org/cdl-premium/passguarantee-orig.svg' className='w-26 h-12' />
             </div>
