@@ -63,7 +63,7 @@ const Pricing = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-wrap gap-10 pb-10 items-center justify-center'>
+                <div className='flex px-3 flex-wrap gap-10 pb-10 items-center justify-center'>
                     <div className='flex flex-wrap flex-col rounded-lg justify-center break-all items-start shadow-custom py-6 p-4 w-[450px]'>
                         <div className='flex flex-wrap flex-col gap-1 pb-5 break-all'>
                             <div className='py-2'>
