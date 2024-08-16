@@ -8,8 +8,10 @@ const howitworks = () => {
       <section className='py-20'>
         <div className='container'>
           <div className='flex flex-wrap items-center flex-col justify-center text-center'>
+            <p className="font-medium text-lg text-[#007aff] mb-8">How we works</p>
+
             <SparklesText text={<h1 className='text-3xl sm:text-5xl font-extrabold'>
-              How we <span className='text-[#007aff]'>works</span>
+              Getting your space spotless online <span className='text-[#007aff]'>has never been this easier.</span>
             </h1>} />
             <p className='text-lg sm:text-xl font-extralight py-6'>
               We’re all about making your life easier with our professional

@@ -24,10 +24,10 @@ const hero = () => {
               <span className='text-[#007aff]'> Clean Homes Makes Happy Lives.</span></h1>
             <h1 className='text-4xl block lg:hidden font-extrabold text-center md:text-start lg:text-start w-full sm:w-[700px]'>Sydney's Top-Rated
               <span className='text-[#007aff]'> Cleaning Services.</span></h1>
-            <div className='flex flex-2 py-2 items-center justify-center gap-5 lg:gap-8'>
+            <div className='flex flex-2 py-2 items-center justify-center gap-2 lg:gap-3'>
               <AvatarCircles numPeople={99} avatarUrls={avatarUrls} className='py-6' />
 
-              <div className='flex flex-col items-center justify-center text-center'>
+              <div className='flex flex-col items-start  '>
 
                 <div className='flex text-center justify-center items-center'>
                   <FaStar className='text-yellow-400 text-2xl' />
@@ -36,7 +36,7 @@ const hero = () => {
                   <FaStar className='text-yellow-400 text-2xl' />
                   <FaStar className='text-yellow-400 text-2xl hidden sm:block' />
                 </div>
-                <p className='text-sm'>Over 100+ Customers<br className='sm:block lg:hidden md:hidden'/> Satisfied</p>
+                <p className='text-sm lg:text-lg text-start'><b className='font-semibold'>Over 100+ </b>Customers<br className='sm:block md:hidden lg:hidden'/> Satisfied</p>
               </div>
             </div>
             <p className='text-xl font-thin py-1 text-center lg:text-start md:text-center w-full'>
