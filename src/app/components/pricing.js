@@ -1,6 +1,5 @@
 import React from 'react'
 import { IoGift } from "react-icons/io5";
-import { VscError } from "react-icons/vsc";
 import { HiCheck } from "react-icons/hi";
 
 const pricing = () => {
