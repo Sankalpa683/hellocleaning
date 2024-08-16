@@ -7,7 +7,7 @@ import { HiCheck } from "react-icons/hi";
 const Pricing = () => {
     return (
         <>
-            <section className="bg-base-200 overflow-hidden" id="pricing">
+            <section className="bg-base-200 bg-gradient-to-br from-white to-blue-100 overflow-hidden" id="pricing">
                 <div className="pt-24 px-8 max-w-5xl mx-auto">
                     <div className="flex flex-col text-center w-full mb-20">
                         <p className="font-medium text-lg text-[#007aff] mb-8">Pricing</p>
