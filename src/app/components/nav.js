@@ -5,6 +5,7 @@ import { IoDiamondOutline } from "react-icons/io5";
 import { CiMenuBurger } from "react-icons/ci";
 import { motion, AnimatePresence } from 'framer-motion';
 
+
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
 

@@ -1,10 +1,13 @@
 import React from 'react'
+import { IoGift } from "react-icons/io5";
+import { VscError } from "react-icons/vsc";
+import { HiCheck } from "react-icons/hi";
 
 const pricing = () => {
     return (
         <>
             <section className="bg-base-200 overflow-hidden" id="pricing">
-                <div className="py-24 px-8 max-w-5xl mx-auto">
+                <div className="pt-24 px-8 max-w-5xl mx-auto">
                     <div className="flex flex-col text-center w-full mb-20">
                         <p className="font-medium text-lg text-[#007aff] mb-8">Pricing</p>
                         <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight">
@@ -59,10 +62,141 @@ const pricing = () => {
                         </ul>
                     </div>
                 </div>
+                <div className='flex flex-wrap gap-10 pb-10 items-center justify-center'>
+                    <div className='flex flex-wrap flex-col rounded-lg justify-center break-all items-start shadow-custom py-6 p-4 w-[450px]'>
+                        <div className='flex flex-wrap flex-col gap-1 pb-5 break-all'>
+                            <div className='py-2'>
+                                <span className='text-lg uppercase font-medium'>Standard Cleaning</span>
+                                <h1 className='text-2xl font-bold capitalize'>Basic Clean</h1>
+                            </div>
+                            <p className='font-thin text-gray-600'>Ideal for routine cleaning and maintaining a fresh home. Includes dusting, vacuuming, and mopping.</p>
+                        </div>
+                        <div className='w-full flex-col flex-wrap justify-center items-end'>
+                            <div className='flex justify-between items-center pb-4 px-2 w-full'>
+                                <p className='text-4xl font-bold'>$99</p>
+                                <p>$11/day</p>
+                            </div>
+                            <button className='bg-[#007aff] rounded-lg text-white p-4 py-3 w-full flex flex-col flex-wrap items-center text-center justify-center'>Book Now</button>
+                            <p className='text-[#007aff] flex gap-0 items-center font-medium text-lg capitalize py-4'><IoGift className='w-8' />Gift a Cleaning</p>
+                        </div>
+                        <div className='flex flex-col flex-wrap items-start py-1 gap-4'>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p className='font-semibold'>Experienced & Professional Cleaners</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Customizable Cleaning Packages</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Eco-friendly Cleaning Products</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Flexible Scheduling</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Thorough & Detailed Cleaning</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Affordable Rates</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex flex-wrap flex-col rounded-lg border-4 border-blue-500 justify-center items-start shadow-lg py-6 p-4 w-[450px]'>
+                        <div className='flex flex-wrap flex-col gap-1 pb-5 break-all'>
+                            <div className='py-2'>
+                                <span className='text-lg uppercase font-medium'>Move-In/Move-Out Cleaning</span>
+                                <h1 className='text-2xl font-bold capitalize'>Ultimate Clean</h1>
+                            </div>
+                            <p className='font-thin text-gray-600'>Complete cleaning for a fresh start. Includes all deep cleaning services plus additional services for moving in or out.</p>
+                        </div>
+                        <div className='w-full flex-col flex-wrap justify-center items-end'>
+                            <div className='flex justify-between items-center pb-4 px-2 w-full'>
+                                <p className='text-4xl font-bold'>$299</p>
+                                <p>$33/day</p>
+                            </div>
+                            <button className='bg-[#007aff] rounded-lg text-white p-4 py-3 w-full flex flex-col flex-wrap items-center text-center justify-center'>Book Now</button>
+                            <p className='text-[#007aff] flex gap-0 items-center font-medium text-lg capitalize py-4'><IoGift className='w-8' />Gift a Cleaning</p>
+                        </div>
+                        <div className='flex flex-col flex-wrap items-start py-1 gap-4'>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p className='font-semibold'>Experienced & Professional Cleaners</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Customizable Cleaning Packages</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Eco-friendly Cleaning Products</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Flexible Scheduling</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Affordable Rates</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Additional Moving Services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex flex-wrap flex-col rounded-lg justify-center items-start shadow-custom py-6 p-4 w-[450px]'>
+                        <div className='flex flex-wrap flex-col gap-1 pb-5 break-all'>
+                            <div className='py-2'>
+                                <span className='text-lg uppercase font-medium'>Deep Cleaning</span>
+                                <h1 className='text-2xl font-bold capitalize'>Premium Clean</h1>
+                            </div>
+                            <p className='font-thin text-gray-600'>Thorough cleaning for a spotless home. Includes all basic cleaning plus detailed kitchen and bathroom scrubbing.</p>
+                        </div>
+                        <div className='w-full flex-col flex-wrap justify-center items-end'>
+                            <div className='flex justify-between items-center pb-4 px-2 w-full'>
+                                <p className='text-4xl font-bold'>$199</p>
+                                <p>$22/day</p>
+                            </div>
+                            <button className='bg-[#007aff] rounded-lg text-white p-4 py-3 w-full flex flex-col flex-wrap items-center text-center justify-center'>Book Now</button>
+                            <p className='text-[#007aff] flex gap-0 items-center font-medium text-lg capitalize py-4'><IoGift className='w-8' />Gift a Cleaning</p>
+                        </div>
+                        <div className='flex flex-col flex-wrap items-start py-1 gap-4'>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Customizable Cleaning Packages</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Eco-friendly Cleaning Products</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Flexible Scheduling</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Thorough & Detailed Cleaning</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Affordable Rates</p>
+                            </div>
+                            <div className='flex flex-wrap items-center gap-2 justify-start'>
+                                <HiCheck className='text-lg text-green-500' />
+                                <p>Specialized Kitchen & Bathroom Cleaning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
-
         </>
     )
 }
 
 export default pricing
+
