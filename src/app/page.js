@@ -5,6 +5,7 @@ import OurServices from './components/services'
 import Howitworks from './components/howitworks'
 import Faqs from './components/faqs'
 import Pricing from './components/pricing'
+import Footer from './components/footer'
 
 
 const index = () => {
@@ -17,6 +18,7 @@ const index = () => {
         <OurServices />
         <Faqs />
         <Pricing />
+        <Footer />
       </main>
     </>
   )
