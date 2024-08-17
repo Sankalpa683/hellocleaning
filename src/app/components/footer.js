@@ -8,11 +8,11 @@ const footer = () => {
             <div className='pb-4'>
                 <img src="/footer.png" width={210}/>
             </div>
-            <div className='flex items-center capitalize gap-6 lg:gap-8 text-gray-500'>
+            {/* <div className='flex items-center capitalize gap-6 lg:gap-8 text-gray-500'>
                 <a className='hover:text-[#007aff] cursor-pointer transition-all' href='#section'>About us</a>
                 <a className='hover:text-[#007aff] cursor-pointer transition-all'>terms & privacy</a>
                 <a className='hover:text-[#007aff] cursor-pointer transition-all'>our services</a>
-            </div>
+            </div> */}
         </div>
     </section>
     </>
