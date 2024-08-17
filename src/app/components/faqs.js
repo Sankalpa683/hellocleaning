@@ -11,7 +11,7 @@ const Faqs = () => {
         <>
             <section className="bg-base-200 overflow-hidden" id="pricing">
                 <div className="py-6 px-5 max-w-5xl mx-auto">
-                    <div className="flex flex-col text-start w-full mb-8">
+                    <div className="flex flex-col text-center w-full mb-8">
                         <p className="font-medium text-lg text-[#007aff] mb-8">FAQs</p>
                         <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight">
                             Your questions, <span className='text-[#007aff]'>answered</span>
