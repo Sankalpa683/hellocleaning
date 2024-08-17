@@ -1,8 +1,9 @@
 import React from 'react'
 import Nav from './components/nav'
 import Hero from './components/hero'
-import OurServices from './components/services'
 import Howitworks from './components/howitworks'
+import OurServices from './components/services'
+import OurBenefits from './components/benefit'
 import Faqs from './components/faqs'
 import Pricing from './components/pricing'
 import Footer from './components/footer'
@@ -16,6 +17,7 @@ const index = () => {
         <Hero />
         <Howitworks />
         <OurServices />
+        <OurBenefits />
         <Faqs />
         <Pricing />
         <Footer />
