@@ -47,7 +47,7 @@ const hero = () => {
                     <FaStar className='text-yellow-400 text-2xl' />
                     <FaStar className='text-yellow-400 text-2xl' />
                     <FaStar className='text-yellow-400 text-2xl' />
-                    <FaStar className='text-yellow-400 text-2xl hidden sm:block' />
+                    <FaStar className='text-yellow-400 text-2xl' />
                   </div>
                   <p className='text-sm lg:text-lg text-start'><b className='font-semibold'>Over 100+ </b>Customers<br className='sm:block md:hidden lg:hidden' /> Satisfied</p>
                 </div>
