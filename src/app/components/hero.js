@@ -8,7 +8,9 @@ import { Skeleton } from "@/components/ui/skeleton";
 const hero = () => {
   const avatarUrls = [
     "https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-6/449331214_790819343227746_6752291036331613180_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=bXVd8yzoImMQ7kNvgFl1rcv&_nc_ht=scontent.fbir1-1.fna&oh=00_AYAbljN-1EtdBYB74ByVS9RLo5MMzI4PvbmJeEX54IpXBg&oe=66C39C6D",
-    // other URLs...
+    "https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-6/442495280_1442142776669571_7854167644060613440_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=fWvy323r7cIQ7kNvgFZPF9Y&_nc_ht=scontent.fbir1-1.fna&oh=00_AYAhFILqKDyA1BGMcNOkLCeC8PE1cn7NQ3KT8y5p_FQxcg&oe=66C3A9B2",
+    "https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-6/428392389_2321069511420124_4691759866267925847_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=f727a1&_nc_ohc=Rkk5c2dSkE0Q7kNvgGcoPx9&_nc_ht=scontent.fbir1-1.fna&oh=00_AYBBpKRhkzjQ04n8l9-lva1BanhzqtAuNkChMiXHgCmKQg&oe=66C391E7",
+    "https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-6/441313520_2136511426704460_7205575581304980294_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=J5jelk054XgQ7kNvgEK-RuT&_nc_ht=scontent.fbir1-1.fna&oh=00_AYAcWOGx8UdrvtG-1W-Dkv15z5goSAwe6JyWw9upIbJVGw&oe=66C39A81",
   ];
 
   return (
