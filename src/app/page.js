@@ -4,6 +4,7 @@ import Hero from './components/hero'
 import Howitworks from './components/howitworks'
 import OurServices from './components/services'
 import OurBenefits from './components/benefit'
+import Checklist from './components/checklist'
 import Faqs from './components/faqs'
 import Testomonial from './components/testomonial'
 import Pricing from './components/pricing'
@@ -19,6 +20,7 @@ const index = () => {
         <Howitworks />
         <OurServices />
         <OurBenefits />
+        <Checklist />
         <Faqs />
         {/* <Testomonial /> */}
         <Pricing />
