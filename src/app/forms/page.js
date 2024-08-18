@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import { Input } from '@/components/ui/Input';
+import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 
 function ContactForm() {
