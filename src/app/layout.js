@@ -18,7 +18,7 @@ export const metadata = {
     url: "https://www.hellocleaningfacility.com",
     images: [
       {
-        url: "https://www.hellocleaningfacility.com/logo.jpg",
+        url: "https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-6/453017120_122094896198445321_5451502910797805415_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=p4RshWfh1-IQ7kNvgF4YOIy&_nc_ht=scontent.fbir1-1.fna&oh=00_AYCP7wYtcsCRCUMEggXg1UhrDAtPns1GWnskyUT-ViPzHA&oe=66C785FB",
         width: 1200,
         height: 630,
         alt: "Hello Cleaning Facility",
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@HelloCleaning",
     title: "Hello Cleaning Facility - Professional Cleaning Services in Sydney",
     description: "Expert cleaning services in Sydney, Australia.",
-    image: "https://www.hellocleaningfacility.com/logo.jpg",
+    image: "https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-6/453017120_122094896198445321_5451502910797805415_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=p4RshWfh1-IQ7kNvgF4YOIy&_nc_ht=scontent.fbir1-1.fna&oh=00_AYCP7wYtcsCRCUMEggXg1UhrDAtPns1GWnskyUT-ViPzHA&oe=66C785FB",
   },
 };
 

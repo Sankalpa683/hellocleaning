@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { IoDiamondOutline } from "react-icons/io5";
 import { CiMenuBurger } from "react-icons/ci";
+import Button from '@/components/button'
 import { motion, AnimatePresence } from 'framer-motion';
 
 
@@ -36,9 +37,10 @@ const Nav = () => {
                         <p className='cursor-pointer hover:text-blue-700 transition-all'>FAQs</p>
                     </div>
                     <div className='hidden sm:flex gap-6 lg:gap-5 justify-center items-center'>
-                        <button className='bg-[#007aff] hover:bg-blue-700 hover:shadow-lg transition-all text-sm sm:text-lg capitalize flex items-center text-white gap-2 px-4 font-medium py-2 rounded-lg'>
+                        {/* <button className='bg-[#007aff] hover:bg-blue-700 hover:shadow-lg transition-all text-sm sm:text-lg capitalize flex items-center text-white gap-2 px-4 font-medium py-2 rounded-lg'>
                             <IoDiamondOutline /> Get a quote now
-                        </button>
+                        </button> */}
+                        <Button />
                     </div>
                     <div className='flex items-center justify-center text-center sm:hidden cursor-pointer px-1' onClick={handleMenuToggle}>
                         <CiMenuBurger className='text-2xl' />
@@ -61,10 +63,11 @@ const Nav = () => {
                                 <p className='cursor-pointer hover:text-blue-700 transition-all mb-4'>FAQs</p>
                             </div>
                             <hr />
-                            <div className='pt-4 w-full justify-center items-center'>
-                                <button className='bg-[#007aff] py-3 text-center justify-center w-full capitalize flex items-center text-white gap-2 px-4 font-medium  rounded-lg'>
+                            <div className='pt-4 w-full justify-center items-center text-center'>
+                                {/* <button className='bg-[#007aff] py-3 text-center justify-center w-full capitalize flex items-center text-white gap-2 px-4 font-medium  rounded-lg'>
                                     <IoDiamondOutline /> Get a quote, now
-                                </button>
+                                </button> */}
+                                <Button className="w-full"/>
                             </div>
                         </motion.div>
                     )}

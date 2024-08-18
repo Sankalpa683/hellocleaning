@@ -15,7 +15,7 @@ const services = [
     image: 'https://exitcleaners.com.au/wp-content/uploads/2024/04/end-of-lease-cleaning.png',
   },
   {
-    title: "Move in cleaning",
+    title: "Move-in cleaning",
     description: "Recommended if you’re moving into a property and want it professionally cleaned before you settle in.",
     benefits: [
       "Super Affordable Prices",
