@@ -1,7 +1,9 @@
 import React from 'react';
 import AvatarCircles from "@/components/magicui/avatar-circles";
 import { FaStar } from "react-icons/fa";
+import { MdAddCall } from "react-icons/md";
 import { IoDiamondOutline } from "react-icons/io5";
+import { IoLogoWhatsapp } from "react-icons/io";
 import BoxReveal from "@/components/magicui/box-reveal";
 import { Skeleton } from "@/components/ui/skeleton";
 
@@ -15,13 +17,13 @@ const hero = () => {
 
   return (
     <>
-      <section className='bg-gradient-to-b from-white to-blue-100 z-50 py-6 lg:py-16 md:py-10 sm:py-6'>
+      <section className='bg-gradient-to-b relative from-white to-blue-100 z-50 py-6 lg:py-16 md:py-10 sm:py-6'>
         <div className='flex px-3 flex-wrap items-center text-3xl justify-center gap-10 lg:text-4xl md:text-4xl sm:items-center md:items-center lg:items-start'>
-          
+
           <div className='w-[500px] md:block lg:hidden sm:block flex-wrap items-center justify-center'>
             <img src='https://exitcleaners.com.au/wp-content/uploads/2023/12/end-of-lease-cleaning-sydney.png' className='w-full shadow-lg rounded-lg' />
           </div>
-          
+
           <div className='text-center py-6 flex flex-col flex-wrap items-center md:items-start lg:items-start justify-center w-full lg:w-[800px]'>
 
             <BoxReveal boxColor={<Skeleton className='h-16 w-full' />} duration={0.4}>
@@ -37,7 +39,7 @@ const hero = () => {
                 <span className='text-[#007aff]'> Cleaning Services.</span>
               </h1>
             </BoxReveal>
-            
+
             <BoxReveal boxColor={<Skeleton className='h-12 w-full' />} duration={0.4}>
               <div className='flex flex-2 py-2 items-center justify-center gap-2 lg:gap-3'>
                 <AvatarCircles numPeople={99} avatarUrls={avatarUrls} className='py-6' />
@@ -63,9 +65,11 @@ const hero = () => {
             <BoxReveal boxColor={<Skeleton className='h-12 w-full' />} duration={0.4}>
               <div className='py-4 flex flex-wrap flex-row items-center justify-center sm:justify-start text-center md:text-center gap-6 w-full'>
                 <button className='bg-[#007aff] hover:bg-blue-700 hover:shadow-lg transition-all text-xl capitalize flex items-center text-white sm:gap-1 lg:gap-2 md:gap-2 px-4 font-medium py-2 rounded-lg'>
-                  <IoDiamondOutline className="hidden sm:hidden md:block lg:block" /> Get a quote now
+                  <IoDiamondOutline className="hidden sm:hidden md:block lg:block" /> Get a quote Now
                 </button>
-                <img src='https://s.driving-tests.org/cdl-premium/passguarantee-orig.svg' className='w-26 h-12' />
+                <button className='bg-green-400 transition-all text-xl capitalize flex items-center text-white sm:gap-1 lg:gap-2 md:gap-2 px-4 font-medium py-2 rounded-lg'>
+                  <IoLogoWhatsapp className="hidden sm:hidden md:block lg:block" /> Chat with us
+                </button>
               </div>
             </BoxReveal>
 
@@ -123,11 +127,12 @@ const hero = () => {
 
           </div>
           <BoxReveal boxColor={<Skeleton className='h-8 w-full' />} duration={0.4}>
-          <div className='w-[500px] hidden lg:block flex-wrap items-center justify-center'>
-            <img src='https://exitcleaners.com.au/wp-content/uploads/2023/12/end-of-lease-cleaning-sydney.png' className='w-full rounded-lg border-4 border-blue-400' />
-          </div>
+            <div className='w-[500px] hidden lg:block flex-wrap items-center justify-center'>
+              <img src='https://exitcleaners.com.au/wp-content/uploads/2023/12/end-of-lease-cleaning-sydney.png' className='w-full rounded-lg border-4 border-blue-400' />
+            </div>
           </BoxReveal>
         </div>
+        
       </section>
     </>
   );
