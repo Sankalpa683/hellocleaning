@@ -77,7 +77,9 @@ const Pricing = () => {
                                 <p className='text-4xl font-bold'>$99</p>
                                 <p>$11/day</p>
                             </div>
-                            <button className='bg-[#007aff] rounded-lg text-white p-4 py-3 w-full flex flex-col flex-wrap items-center text-center justify-center'>Book Now</button>
+                            <a href='/book-now'>
+                                <button className='bg-[#007aff] rounded-lg text-white p-4 py-3 w-full flex flex-col flex-wrap items-center text-center justify-center'>Book Now</button>
+                            </a>
                             <p className='text-[#007aff] flex gap-0 items-center font-medium text-lg capitalize py-4'><IoGift className='w-8' />Gift a Cleaning</p>
                         </div>
                         <div className='flex flex-col flex-wrap items-start py-1 gap-4'>
@@ -120,7 +122,9 @@ const Pricing = () => {
                                 <p className='text-4xl font-bold'>$199</p>
                                 <p>$22/day</p>
                             </div>
-                            <button className='bg-[#007aff] rounded-lg text-white p-4 py-3 w-full flex flex-col flex-wrap items-center text-center justify-center'>Book Now</button>
+                            <a href='/book-now'>
+                                <button className='bg-[#007aff] rounded-lg text-white p-4 py-3 w-full flex flex-col flex-wrap items-center text-center justify-center'>Book Now</button>
+                            </a>
                             <p className='text-[#007aff] flex gap-0 items-center font-medium text-lg capitalize py-4'><IoGift className='w-8' />Gift a Cleaning</p>
                         </div>
                         <div className='flex flex-col flex-wrap items-start py-1 gap-4'>
@@ -163,7 +167,10 @@ const Pricing = () => {
                                 <p className='text-4xl font-bold'>$299</p>
                                 <p>$33/day</p>
                             </div>
-                            <button className='bg-[#007aff] rounded-lg text-white p-4 py-3 w-full flex flex-col flex-wrap items-center text-center justify-center'>Book Now</button>
+                            <a href='/book-now'>
+                                <button className='bg-[#007aff] rounded-lg text-white p-4 py-3 w-full flex flex-col flex-wrap items-center text-center justify-center'>Book Now</button>
+                            </a>
+
                             <p className='text-[#007aff] flex gap-0 items-center font-medium text-lg capitalize py-4'><IoGift className='w-8' />Gift a Cleaning</p>
                         </div>
                         <div className='flex flex-col flex-wrap items-start py-1 gap-4'>

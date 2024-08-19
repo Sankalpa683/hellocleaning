@@ -17,7 +17,7 @@ const hero = () => {
 
   return (
     <>
-      <section className='bg-gradient-to-b relative from-white to-blue-100 z-50 py-6 lg:py-16 md:py-10 sm:py-6'>
+      <section className='bg-gradient-to-b relative from-white to-blue-100 py-6 lg:py-16 md:py-10 sm:py-6'>
         <div className='flex px-3 flex-wrap items-center text-3xl justify-center gap-10 lg:text-4xl md:text-4xl sm:items-center md:items-center lg:items-start'>
 
           <div className='w-[500px] md:block lg:hidden sm:block flex-wrap items-center justify-center'>
@@ -67,9 +67,10 @@ const hero = () => {
                 <button className='bg-[#007aff] hover:bg-blue-700 hover:shadow-lg transition-all text-xl capitalize flex items-center text-white sm:gap-1 lg:gap-2 md:gap-2 px-4 font-medium py-2 rounded-lg'>
                   <IoDiamondOutline className="hidden sm:hidden md:block lg:block" /> Get a quote Now
                 </button>
-                <button className='bg-green-400 transition-all text-xl capitalize flex items-center text-white sm:gap-1 lg:gap-2 md:gap-2 px-4 font-medium py-2 rounded-lg'>
+                <img src="https://s.driving-tests.org/cdl-premium/passguarantee-orig.svg" className='w-22 h-12' />
+                {/* <button className='bg-green-400 transition-all text-xl capitalize flex items-center text-white sm:gap-1 lg:gap-2 md:gap-2 px-4 font-medium py-2 rounded-lg'>
                   <IoLogoWhatsapp className="hidden sm:hidden md:block lg:block" /> Chat with us
-                </button>
+                </button> */}
               </div>
             </BoxReveal>
 

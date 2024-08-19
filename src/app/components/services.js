@@ -86,9 +86,9 @@ const Service = ({ title, description, benefits, image }) => {
         ))}
       </ul>
       <div className='mt-auto'>
-        <button className='bg-[#007aff] py-3 w-full text-center justify-center capitalize flex items-center text-white gap-2 px-4 font-medium rounded-lg'>
-          <MdCleaningServices /> Get A Quote ➜
-        </button>
+        <a href='/book-now'><button className='bg-[#007aff] py-3 w-full text-center justify-center capitalize flex items-center text-white gap-2 px-4 font-medium rounded-lg'>
+          <MdCleaningServices /> Book this service ➜
+        </button></a>
       </div>
     </div>
   );

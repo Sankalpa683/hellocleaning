@@ -37,10 +37,11 @@ const Nav = () => {
                         <p className='cursor-pointer hover:text-blue-700 transition-all'>FAQs</p>
                     </div>
                     <div className='hidden sm:flex gap-6 lg:gap-5 justify-center items-center'>
-                        {/* <button className='bg-[#007aff] hover:bg-blue-700 hover:shadow-lg transition-all text-sm sm:text-lg capitalize flex items-center text-white gap-2 px-4 font-medium py-2 rounded-lg'>
-                            <IoDiamondOutline /> Get a quote now
-                        </button> */}
-                        <Button />
+                        <a href='/book-now'>
+                            <button className='bg-[#007aff] hover:bg-blue-700 hover:shadow-lg transition-all text-sm sm:text-lg capitalize flex items-center text-white gap-2 px-4 font-medium py-2 rounded-lg'>
+                                <IoDiamondOutline /> Book our service online
+                            </button>
+                        </a>
                     </div>
                     <div className='flex items-center justify-center text-center sm:hidden cursor-pointer px-1' onClick={handleMenuToggle}>
                         <CiMenuBurger className='text-2xl' />
@@ -53,7 +54,7 @@ const Nav = () => {
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: -20 }}
                             transition={{ duration: 0.3, ease: 'easeInOut' }}
-                            className='absolute top-full left-0 right-0 bg-white shadow-lg p-4 z-40 mt-2'
+                            className='absolute top-full left-0 right-0 bg-white shadow-lg p-4 z-50 mt-2'
                         >
                             <div className='flex flex-col gap-5 items-center justify-center'>
                                 <p className='cursor-pointer hover:text-blue-700 transition-all mb-2'>Services</p>
@@ -64,10 +65,11 @@ const Nav = () => {
                             </div>
                             <hr />
                             <div className='pt-4 w-full justify-center items-center text-center'>
-                                {/* <button className='bg-[#007aff] py-3 text-center justify-center w-full capitalize flex items-center text-white gap-2 px-4 font-medium  rounded-lg'>
-                                    <IoDiamondOutline /> Get a quote, now
-                                </button> */}
-                                <Button className="w-full"/>
+                                <a href="/book-now">
+                                    <button className='bg-[#007aff] py-3 text-center justify-center w-full capitalize flex items-center text-white gap-2 px-4 font-medium  rounded-lg'>
+                                        <IoDiamondOutline /> Book our service online
+                                    </button>
+                                </a>
                             </div>
                         </motion.div>
                     )}
