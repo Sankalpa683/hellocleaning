@@ -26,7 +26,7 @@ function ContactForm() {
   return (
 
     <>
-      <div className="py-12 min-h-screen">
+      <section className="py-12 min-h-screen">
         <div className='pt-6 pb-16 flex flex-col flex-wrap items-center justify-start text-center'>
           <h1 className='text-3xl px-3 lg:text-5xl font-medium'>You’re 60 seconds away <span className='text-[#007aff]'>from a clean home</span></h1>
           <p className='text-lg hidden lg:block lg:text-xl pt-4 lg:pt-8 text-gray-800'>View pricing, availability & book online. <span className='text-[#007aff]'>Have questions?</span></p>
@@ -164,7 +164,7 @@ function ContactForm() {
                       <SelectContent>
                         <SelectItem value="single">Single Story</SelectItem>
                         <SelectItem value="double">Double Story</SelectItem>
-                        <SelectItem value="three">three Story</SelectItem>
+                        <SelectItem value="three">Three Story</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -190,6 +190,30 @@ function ContactForm() {
                   errors={state.errors}
                 />
               </div>
+              <div className='py-4 flex flex-wrap flex-col gap-4'>
+                <h2 className='text-2xl font-medium pb-4'>Step 4: Select your add-ons</h2>
+                <div className='grid grid-cols-2 xl:grid-cols-5 sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-3'>
+                  {[
+                    "Inside Oven", "Range Hood", "Interior Windows", "Exterior Windows",
+                    "Inside Cupboards", "Sliding Glass Doors", "Inside Fridge (Empty)",
+                    "Inside Fridge (Full)", "Change Bed Linen", "Blinds/Shutters",
+                    "Laundry", "Wash Dishes", "Small Balcony", "Large Balcony",
+                    "Deck", "Patio", "Garage Sweep & Tidy", "Spot Clean Walls",
+                    "Wall Washing", "Dishwasher", "Carpet Steam Clean", "Wardrobe",
+                    "Alfresco", "Pantry", "Ceiling Fan", "Enclosed Sunroom", "Driveway Cleaning",
+                    "Air Condition"
+                  ].map(addOn => (
+                    <div key={addOn} className="flex items-center">
+                      <input
+                        type="checkbox"
+
+                      />
+                      <label className="ml-2">{addOn}</label>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <hr />
               <div className='w-full'>
                 <button type="submit" disabled={state.submitting} className='bg-[#007aff] py-3 float-right text-center justify-end w-fit capitalize flex items-center  text-white gap-2 px-4 font-medium  rounded-lg'>
                   Next Step <MdOutlineNavigateNext className='text-xl' />
@@ -228,8 +252,8 @@ function ContactForm() {
               </div>
             </div>
           </div>
-        </form>
-      </div>
+        </form >
+      </section >
     </>
   );
 }
