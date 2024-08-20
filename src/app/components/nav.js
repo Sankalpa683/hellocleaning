@@ -18,17 +18,19 @@ const Nav = () => {
         <>
             <section className='p-2 pb-3 bg-white shadow sticky top-0 z-50'>
                 <header className='flex text-sm flex-wrap px-1 justify-between lg:justify-around items-center'>
-                    <div className='flex items-center gap-1'>
-                        <img
-                            src='https://byedispute.com/_next/static/media/icon.541e58e6.png'
-                            width='50px'
-                            height='50px'
-                            alt='Logo'
-                        />
-                        <span className='font-bold lg:font-extrabold text-xl lg:text-2xl flex gap-1'>
-                            Hello Cleaning<br /><span className='text-[#007aff]'>Facility</span>
-                        </span>
-                    </div>
+                    <a href='/'>
+                        <div className='flex items-center gap-1'>
+                            <img
+                                src='https://byedispute.com/_next/static/media/icon.541e58e6.png'
+                                width='50px'
+                                height='50px'
+                                alt='Logo'
+                            />
+                            <span className='font-bold lg:font-extrabold text-xl lg:text-2xl flex gap-1'>
+                                Hello Cleaning<br /><span className='text-[#007aff]'>Facility</span>
+                            </span>
+                        </div>
+                    </a>
                     <div className='hidden px-5 lg:flex text-lg items-center gap-14'>
                         <p className='cursor-pointer hover:text-blue-700 transition-all'>Services</p>
                         <p className='cursor-pointer hover:text-blue-700 transition-all'>How we works</p>
