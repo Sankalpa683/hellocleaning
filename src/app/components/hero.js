@@ -28,7 +28,7 @@ const hero = () => {
 
             <BoxReveal boxColor={<Skeleton className='h-16 w-full' />} duration={0.4}>
               <h1 className='text-5xl hidden lg:block font-extrabold text-center md:text-start lg:text-start w-full sm:w-[700px]'>
-                Sydney's Top-Rated Cleaning Services.
+                Nepal's Top-Rated Cleaning Services.
                 <span className='text-[#007aff]'> Clean Homes Makes Happy Lives.</span>
               </h1>
             </BoxReveal>
