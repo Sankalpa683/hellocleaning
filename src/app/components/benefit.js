@@ -54,7 +54,7 @@ const Benefit = ({ title, description, icon }) => {
 const OurBenefits = () => {
   return (
     <>
-      <section className='py-16 bg-white dark:bg-neutral-900'>
+      <section className='py-16 bg-white dark:bg-neutral-900' id='benefits'>
         <div className='container mx-auto'>
           <div className='text-center mb-12'>
             <p className="font-medium text-lg text-[#007aff]">Why Choose Us</p>

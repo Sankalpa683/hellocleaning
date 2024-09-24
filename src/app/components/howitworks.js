@@ -71,7 +71,7 @@ const Feature = ({ title, description, index, icon }) => {
 const howitworks = () => {
   return (
     <>
-      <section className='py-16'>
+      <section className='py-16' id='wework'>
         <div className='container'>
           <div className='flex flex-wrap items-center flex-col justify-center text-center'>
             <p className="font-medium text-lg text-[#007aff] mb-8">How we work</p>

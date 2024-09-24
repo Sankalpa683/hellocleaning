@@ -9,7 +9,7 @@ import {
 const Faqs = () => {
     return (
         <>
-            <section className="bg-base-200 overflow-hidden" id="pricing">
+            <section className="bg-base-200 overflow-hidden" id="faqs">
                 <div className="py-12 px-5 max-w-5xl mx-auto">
                     <div className="flex flex-col text-center w-full mb-8">
                         <p className="font-medium text-lg text-[#007aff] mb-8">FAQs</p>

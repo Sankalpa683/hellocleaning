@@ -97,7 +97,7 @@ const Service = ({ title, description, benefits, image }) => {
 const OurServices = () => {
   return (
     <>
-      <section className='py-16 bg-white dark:bg-neutral-900'>
+      <section className='py-16 bg-white dark:bg-neutral-900' id='services'>
         <div className='container mx-auto'>
           <div className='text-center mb-12'>
             <p className="font-medium text-lg text-[#007aff]">Our Services</p>

@@ -32,11 +32,11 @@ const Nav = () => {
                         </div>
                     </a>
                     <div className='hidden px-5 lg:flex text-lg items-center gap-14'>
-                        <p className='cursor-pointer hover:text-blue-700 transition-all'>Services</p>
-                        <p className='cursor-pointer hover:text-blue-700 transition-all'>How we works</p>
-                        <p className='cursor-pointer hover:text-blue-700 transition-all'>Benefit</p>
-                        <p className='cursor-pointer hover:text-blue-700 transition-all'>Pricing</p>
-                        <p className='cursor-pointer hover:text-blue-700 transition-all'>FAQs</p>
+                        <a href='#services'><p className='cursor-pointer hover:text-blue-700 transition-all'>Services</p></a>
+                        <a href='#wework'><p className='cursor-pointer hover:text-blue-700 transition-all'>How we works</p></a>
+                        <a href='#benefits'><p className='cursor-pointer hover:text-blue-700 transition-all'>Benefit</p></a>
+                        <a href='#pricing'><p className='cursor-pointer hover:text-blue-700 transition-all'>Pricing</p></a>
+                        <a href='#faqs'><p className='cursor-pointer hover:text-blue-700 transition-all'>FAQs</p></a>
                     </div>
                     <div className='hidden sm:flex gap-6 lg:gap-5 justify-center items-center'>
                         <a href='/book-now'>
@@ -59,11 +59,11 @@ const Nav = () => {
                             className='absolute top-full left-0 right-0 bg-white shadow-lg p-4 z-50 mt-2'
                         >
                             <div className='flex flex-col gap-5 items-center justify-center'>
-                                <p className='cursor-pointer hover:text-blue-700 transition-all mb-2'>Services</p>
-                                <p className='cursor-pointer hover:text-blue-700 transition-all mb-2'>How we works</p>
-                                <p className='cursor-pointer hover:text-blue-700 transition-all mb-2'>Benefit</p>
-                                <p className='cursor-pointer hover:text-blue-700 transition-all mb-2'>Pricing</p>
-                                <p className='cursor-pointer hover:text-blue-700 transition-all mb-4'>FAQs</p>
+                                <a href='#services'><p className='cursor-pointer hover:text-blue-700 transition-all mb-2'>Services</p></a>
+                                <a href='#wework'><p className='cursor-pointer hover:text-blue-700 transition-all mb-2'>How we works</p></a>
+                                <a href='#benefits'><p className='cursor-pointer hover:text-blue-700 transition-all mb-2'>Benefit</p></a>
+                                <a href='#pricing'><p className='cursor-pointer hover:text-blue-700 transition-all mb-2'>Pricing</p></a>
+                                <a href='#faqs'><p className='cursor-pointer hover:text-blue-700 transition-all mb-4'>FAQs</p></a>
                             </div>
                             <hr />
                             <div className='pt-4 w-full justify-center items-center text-center'>
